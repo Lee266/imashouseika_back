@@ -3,4 +3,6 @@ django-cors-headers
 djangorestframework
 pillow
 mysqlclient
-python-dotenv 
+python-dotenv
+markdown
+django-filter 
