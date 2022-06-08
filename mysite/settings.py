@@ -61,6 +61,7 @@ MIDDLEWARE = [
 ]
 
 # add
+# permit access
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )
@@ -95,6 +96,12 @@ DATABASES = {
         'NAME': 'imashouseika',
         'USER': 'root',
         'PASSWORD': os.environ['DB_LOGIN_PASSWORD'],
+    },
+    'nosql': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '',
+        'USER': 'root',
+        'PASSWORD': '',
     }
 }
 
